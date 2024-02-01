@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{font-family: 'Inter', sans-serif;}
+
+body{
+    background-color: hsl(0, 0%, 8%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+
+}
+
+.linktree{
+
+    
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.card{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+
+    border-radius:50%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 15px;
+
+}
+
+.name{
+
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.country{
+
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.role{
+
+    color: hsl(0, 0%, 48%);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.links{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links a{
+
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.links button{
+
+    background-color: hsl(0, 0%, 20%);
+    border-style: none;
+    padding: 15px;
+    width: 200px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.links button:hover{
+
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    
+}
+
+button:hover a{
+
+    color: black;
+}
+
+
+.attribution {
+    color: white;
+    margin-top: 50px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
+    font-weight: 600;
+  }
